@@ -53,9 +53,9 @@ namespace Todo.Core.Tests
             list.Add("Buy milk");
             list.Add("Read book");
 
-            list.Save("\"C:\\Users\\remfo\\Desktop\"\\TodoList.json");
+            list.Save("C:\\Users\\remfo\\Desktop\\TodoList.json");
 
-            testList.Load("\"C:\\Users\\remfo\\Desktop\"\\ToDoList.json");
+            testList.Load("C:\\Users\\remfo\\Desktop\\ToDoList.json");
 
             Assert.True(list.Count == 2);
         }
