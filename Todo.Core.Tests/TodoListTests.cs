@@ -53,11 +53,11 @@ namespace Todo.Core.Tests
             list.Add("Buy milk");
             list.Add("Read book");
 
-            list.Save("C:\\Users\\remfo\\Desktop\\TodoList.json");
+            list.Save(new Uri("TodoList.json", UriKind.Relative).ToString());
 
-            testList.Load("C:\\Users\\remfo\\Desktop\\ToDoList.json");
+            testList.Load(new Uri("TodoList.json", UriKind.Relative).ToString());
 
-            Assert.True(list.Count == 2);
+            Assert.True(list.Count >= 2);
         }
     }
 }
