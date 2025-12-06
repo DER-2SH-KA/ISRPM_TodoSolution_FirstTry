@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core", "Todo.Core\Todo.Core.csproj", "{B779FFCD-FC37-4E77-A498-EEDE4402F7E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core.Tests", "Todo.Core.Tests\Todo.Core.Tests.csproj", "{9B6023C2-9119-4FDC-8FED-880944172412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core.SampleApp", "Todo.Core.SampleApp\Todo.Core.SampleApp.csproj", "{AF75CC11-DDAF-433C-910F-84EA7CDF0500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9B6023C2-9119-4FDC-8FED-880944172412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B6023C2-9119-4FDC-8FED-880944172412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B6023C2-9119-4FDC-8FED-880944172412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF75CC11-DDAF-433C-910F-84EA7CDF0500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75CC11-DDAF-433C-910F-84EA7CDF0500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75CC11-DDAF-433C-910F-84EA7CDF0500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75CC11-DDAF-433C-910F-84EA7CDF0500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
