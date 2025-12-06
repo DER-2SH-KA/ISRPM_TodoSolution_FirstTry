@@ -6,6 +6,13 @@ root = true
 dotnet_analyzer_diagnostic.severity = error
 # Имена — предупреждение
 dotnet_diagnostic.SA1300.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.SA1309.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.SA1633.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.SA1500.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.SA1413.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.CA1826.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.CA1869.severity = warning # Element should begin with upper-case letter
+dotnet_diagnostic.CA1707.severity = warning # Element should begin with upper-case letter
 dotnet_diagnostic.SA1310.severity = warning # Field names should not contain underscores
 # Документация — suggestion
 dotnet_diagnostic.SA1600.severity = suggestion # Elements must be documented(XML-comments)
@@ -16,6 +23,7 @@ dotnet_diagnostic.IDE0007.severity = none # Use implicit type
 dotnet_diagnostic.IDE0008.severity = none # Use explicit type
 # Разрешаем expression-bodied методы
 dotnet_diagnostic.IDE0022.severity = none # Use expression body for methods
+dotnet_diagnostic.IDE0058.severity = none
 # Разрешаем new()
 dotnet_diagnostic.IDE0090.severity = none # Simplify new()
 dotnet_diagnostic.SA1000.severity = none # Spacing around keywords

@@ -5,6 +5,11 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
+//--------
+// <copyright file="TodoList.cs" company="NATK">
+// Copyright (c) NATK. All rights reserved.
+// </copyright>
+//--------
 namespace Todo.Core
 {
     public class TodoList
@@ -23,8 +28,7 @@ namespace Todo.Core
         public bool Remove(Guid id) => _items.RemoveAll(i => i.Id == id) > 0;
 
         public IEnumerable<TodoItem> Find(string substring) =>
-        _items.Where(i => i.Title.Contains(substring ?? string.Empty,
-       StringComparison.OrdinalIgnoreCase));
+        _items.Where(i => i.Title.Contains(substring ?? string.Empty, StringComparison.OrdinalIgnoreCase));
 
         public int Count => _items.Count;
 
